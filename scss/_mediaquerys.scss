@@ -1,0 +1,52 @@
+.navegador .fa-bars{
+    display: none;
+}
+
+@media(max-width:992px){
+    .texto-producto{
+        font-size: 14px;
+        padding: 15px;   
+    }
+    .lista{
+        font-size: 14px;   
+    }
+    .contenedor-contacto{
+        flex-direction: column;
+    }
+    .imagen-contacto{
+        width: 100%;
+    }
+}
+
+@media(max-width:992px){
+    .navegador .fa-bars{
+        display: block;
+        margin: 10px;
+        font-size: 45px;
+        color: white;        
+    }
+    .navegador .fa-bars:hover + ul {
+        right: 0;
+    } 
+    .navegador ul {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background: #000000b6;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        transition: all 0.5s;
+    }
+    .navegador ul:hover{
+        right: 0;
+    }
+    .navegador ul li a{
+        color: white;
+    }
+    .navegador ul li a:hover{
+        color: white;
+    }
+}
