@@ -1,0 +1,30 @@
+.contenedor-footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;  
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: transparent;
+        border: transparent;
+        color: white;  
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    i{
+        padding: 20px;
+        font-size: 26px;
+    }
+}
+
+.desarrollador{
+    display: flex;
+    align-items: center;    
+}   

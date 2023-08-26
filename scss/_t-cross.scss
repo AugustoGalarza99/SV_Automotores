@@ -1,0 +1,90 @@
+.main-tcross{
+    background: #aaaaaaa1;
+    h1{
+        font-family:'Montserrat', sans-serif;
+        margin-top: 70px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .contenedora-t-cross{
+        display: flex;
+        flex-flow: wrap;
+        img{
+            height: 400px;
+            width: 600px;
+            object-fit: cover;
+            margin: 20px;
+            border: 2px solid black;
+            box-shadow:  16px 16px 30px #868686,
+            -16px -16px 30px #ffffff;
+        }
+        h2{
+            display: flex;
+            font-family:'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            justify-content: center;
+        }
+        h3{
+            display: flex;
+            font-family:'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            justify-content: center;
+        }
+        p{
+            font-family:'Montserrat', sans-serif;
+            font-size: 16px;
+            padding-left: 20px;
+        }
+        .precio{
+            font-family:'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            width: 150px;
+            height: 30px;
+            border: 3px solid black;
+            border-radius: 15px;
+            transition: all 0.3s;
+            display: flex;
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            justify-content: center;
+            cursor: pointer;
+            background: white;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;            
+            &:hover{
+            background: black;
+            color: white;
+            font-size: 16px;
+            }        
+        }
+    }
+    .contenedora-galeria{
+        h4{
+            font-family:'Montserrat', sans-serif;
+            font-size: 30px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        div{
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-evenly;
+            img{
+                height: 450px;                
+                object-fit: cover;
+                margin: 20px;
+                border: 2px solid black;
+                box-shadow:  16px 16px 30px #868686,;
+            }
+        }
+    }
+}
