@@ -3,22 +3,6 @@
 }
 
 @media(max-width:992px){
-    .texto-producto{
-        font-size: 14px;
-        padding: 15px;   
-    }
-    .lista{
-        font-size: 14px;   
-    }
-    .contenedor-contacto{
-        flex-direction: column;
-    }
-    .imagen-contacto{
-        width: 100%;
-    }
-}
-
-@media(max-width:992px){
     .navegador .fa-bars{
         display: block;
         margin: 10px;
@@ -49,4 +33,29 @@
     .navegador ul li a:hover{
         color: white;
     }
+    .contenedora-main{
+        flex-flow: wrap;
+        text-align: center;
+        justify-content: center;
+        img{
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .contenedor-footer{
+        flex-direction: column;
+        text-align: center;
+        .desarrollador{
+            text-align: center;
+            justify-content: center;
+            p{
+                padding: 20px;
+            }
+        }
+    }
+    
 }

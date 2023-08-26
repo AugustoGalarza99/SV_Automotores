@@ -50,8 +50,8 @@ header nav ul li a {
 }
 .carousel-item img {
   width: 100%;
-  height: 360px;
   object-fit: cover;
+  height: auto;
 }
 
 .contenedor-tarjeta {
@@ -308,21 +308,6 @@ main h3 {
 }
 
 @media (max-width: 992px) {
-  .texto-producto {
-    font-size: 14px;
-    padding: 15px;
-  }
-  .lista {
-    font-size: 14px;
-  }
-  .contenedor-contacto {
-    flex-direction: column;
-  }
-  .imagen-contacto {
-    width: 100%;
-  }
-}
-@media (max-width: 992px) {
   .navegador .fa-bars {
     display: block;
     margin: 10px;
@@ -352,6 +337,29 @@ main h3 {
   }
   .navegador ul li a:hover {
     color: white;
+  }
+  .contenedora-main {
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .contenedora-main img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contenedor-footer .desarrollador {
+    text-align: center;
+    justify-content: center;
+  }
+  .contenedor-footer .desarrollador p {
+    padding: 20px;
   }
 }
 
