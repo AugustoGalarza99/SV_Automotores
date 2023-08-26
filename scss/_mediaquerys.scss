@@ -17,17 +17,17 @@
         top: 70px;
         right: -100%;
         width: 100%;
-        
+        padding-bottom: 100%;               
         background: #000000b6;
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
-        transition: all 0.5s;
+        transition: all 0.5s;        
     }
     .navegador ul:hover{
         right: 0;
     }
-    .navegador ul li a{
+    .navegador ul li a{        
         color: white;
     }
     .navegador ul li a:hover{
@@ -46,6 +46,9 @@
             width: 100%;
             object-fit: cover;
         }
+    }
+    .logo{
+        z-index: 5;
     }
 }
 
