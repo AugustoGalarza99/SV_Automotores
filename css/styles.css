@@ -44,7 +44,7 @@ header nav ul li a {
 
 .carousel-item {
   width: 100%;
-  height: 360px;
+  height: 500px;
   margin-top: 70px;
   height: auto;
 }
@@ -128,6 +128,7 @@ main h3 {
 .contenedora-main {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 .contenedora-main .p1 {
   font-family: "Montserrat", sans-serif;
